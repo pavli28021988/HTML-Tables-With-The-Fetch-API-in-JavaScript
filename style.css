@@ -1,0 +1,32 @@
+﻿ .table{
+    box-shadow:0 0 10px rgb(0,0,0,0.1) ;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+ .table thead th{
+    background: #009578;
+    color:#ffffff;
+}
+
+ .table td, .table th{
+    padding: 40px 60px;
+}
+
+ .table tbody tr:nth-of-type(even){
+    background: #eeeeee;
+} 
+ .table tbody tr:last-of-type{
+    border-bottom: 2px solid #009578;
+}  
+   
+/* .table tbody tr:nth-child(even){
+    background: red;
+} */
+
+
+ table{
+    margin: 0 auto;
+ }
